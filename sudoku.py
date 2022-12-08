@@ -57,7 +57,7 @@ def create_main_menu():
           sys.exit()
         if event.type == pygame.MOUSEBUTTONDOWN:
             if easyRectangle.collidepoint(event.pos):
-                return 1
+                return 30
             elif mediumRectangle.collidepoint(event.pos):
                 return 40
             elif hardRectangle.collidepoint(event.pos):
